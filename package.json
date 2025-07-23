@@ -1,0 +1,26 @@
+{
+  "name": "crypto-telegram-bot",
+  "version": "1.0.0",
+  "description": "암호화폐 시세 텔레그램 봇",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cryptocurrency",
+    "bitcoin"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
